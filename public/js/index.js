@@ -1,229 +1,212 @@
 const questions = [
     {
-        question: "How many days makes a week ?",
-        optionA: "10 days",
-        optionB: "14 days",
-        optionC: "5 days",
-        optionD: "7 days",
-        correctOption: "optionD"
-    },
-
-    {
-        question: "How many players are allowed on a soccer pitch ?",
-        optionA: "10 players",
-        optionB: "11 players",
-        optionC: "9 players",
-        optionD: "12 players",
+        question: "You received an email from Microsoft explaining that your password it out of date, and you must set a new one.  The link within the email will guide you through it.  Your next step is?",
+        optionA: "Follow the link and reset your password",
+        optionB: "Ignore the email and delete it",
+        optionC: "Reset your password manually",
+        optionD: "Forwrad email on to friends/family",
         correctOption: "optionB"
     },
 
     {
-        question: "Who was the first President of USA ?",
-        optionA: "Donald Trump",
-        optionB: "Barack Obama",
-        optionC: "Abraham Lincoln",
-        optionD: "George Washington",
+        question: "Which of the following passwords is the most secure?",
+        optionA: "123456",
+        optionB: "Car789",
+        optionC: "ILoveMySon",
+        optionD: "WTh!5Z",
         correctOption: "optionD"
     },
 
     {
-        question: "30 days has ______ ?",
-        optionA: "January",
-        optionB: "December",
-        optionC: "June",
-        optionD: "August",
-        correctOption: "optionC"
-    },
-
-    {
-        question: "How manay hours can be found in a day ?",
-        optionA: "30 hours",
-        optionB: "38 hours",
-        optionC: "48 hours",
-        optionD: "24 hours",
-        correctOption: "optionD"
-    },
-
-    {
-        question: "Which is the longest river in the world ?",
-        optionA: "River Nile",
-        optionB: "Long River",
-        optionC: "River Niger",
-        optionD: "Lake Chad",
-        correctOption: "optionA"
-    },
-
-    {
-        question: "_____ is the hottest Continent on Earth ?",
-        optionA: "Oceania",
-        optionB: "Antarctica",
-        optionC: "Africa",
-        optionD: "North America",
-        correctOption: "optionC"
-    },
-
-    {
-        question: "Which country is the largest in the world ?",
-        optionA: "Russia",
-        optionB: "Canada",
-        optionC: "Africa",
-        optionD: "Egypt",
-        correctOption: "optionA"
-    },
-
-    {
-        question: "Which of these numbers is an odd number ?",
-        optionA: "Ten",
-        optionB: "Twelve",
-        optionC: "Eight",
-        optionD: "Eleven",
-        correctOption: "optionD"
-    },
-
-    {
-        question: `"You Can't see me" is a popular saying by`,
-        optionA: "Eminem",
-        optionB: "Bill Gates",
-        optionC: "Chris Brown",
-        optionD: "John Cena",
-        correctOption: "optionD"
-    },
-
-    {
-        question: "Where is the world tallest building located ?",
-        optionA: "Africa",
-        optionB: "California",
-        optionC: "Dubai",
-        optionD: "Italy",
-        correctOption: "optionC"
-    },
-
-    {
-        question: "The longest river in the United Kingdom is ?",
-        optionA: "River Severn",
-        optionB: "River Mersey",
-        optionC: "River Trent",
-        optionD: "River Tweed",
-        correctOption: "optionA"
-    },
-
-
-    {
-        question: "How many permanent teeth does a dog have ?",
-        optionA: "38",
-        optionB: "42",
-        optionC: "40",
-        optionD: "36",
+        question: "What is the weakest link in cybersecurity",
+        optionA: "Weak passwords",
+        optionB: "Humans",
+        optionC: "Weak encryption",
+        optionD: "Bad IT department",
         correctOption: "optionB"
     },
 
     {
-        question: "Which national team won the football World cup in 2018 ?",
-        optionA: "England",
-        optionB: "Brazil",
-        optionC: "Germany",
-        optionD: "France",
-        correctOption: "optionD"
-    },
-
-    {
-        question: "Which US state was Donald Trump Born ?",
-        optionA: "New York",
-        optionB: "California",
-        optionC: "New Jersey",
-        optionD: "Los Angeles",
-        correctOption: "optionA"
-    },
-
-    {
-        question: "How man states does Nigeria have ?",
-        optionA: "24",
-        optionB: "30",
-        optionC: "36",
-        optionD: "37",
+        question: "What’s the best way to secure a weak password like “house123”?",
+        optionA: "Add an uppercase letter and a special character, such as @",
+        optionB: "Don’t reuse it anywhere else or share it with anyone",
+        optionC: "Enable two-factor authentication",
+        optionD: "Add more numbers",
         correctOption: "optionC"
     },
 
     {
-        question: "____ is the capital of Nigeria ?",
-        optionA: "Abuja",
-        optionB: "Lagos",
-        optionC: "Calabar",
-        optionD: "Kano",
+        question: "When is it OK to reuse a password?",
+        optionA: "When you are logging into social media accounts",
+        optionB: "When it is too hard to remember a long password",
+        optionC: "Never",
+        optionD: "If your boss or employers tell you to",
+        correctOption: "optionC" 
+    },
+
+    {
+        question: "What should you do if you think your identity or accounts have been compromised?",
+        optionA: "Monitor your email address and accounts for fraudulent activity",
+        optionB: "Subscribe to a monitoring service such as Lifelock or WebWatcher.",
+        optionC: "Respond to the warning email you have received.",
+        optionD: "Nothing, banks have systems in place to deal with this",
         correctOption: "optionA"
     },
 
     {
-        question: "Los Angeles is also known as ?",
-        optionA: "Angels City",
-        optionB: "Shining city",
-        optionC: "City of Angels",
-        optionD: "Lost Angels",
+        question: "Which of the following describes Ransomware?",
+        optionA: "Software that tracks a persons movements then takes them hostage when alone",
+        optionB: "Takes control of your computer or phone while you are using it",
+        optionC: "Malicious software designed to block access to a computer system until a sum of money is paid",
+        optionD: "Spys on you and gathers information",
         correctOption: "optionC"
     },
 
     {
-        question: "What is the capital of Germany ?",
-        optionA: "Georgia",
-        optionB: "Missouri",
-        optionC: "Oklahoma",
-        optionD: "Berlin",
-        correctOption: "optionD"
-    },
-
-    {
-        question: "How many sides does an hexagon have ?",
-        optionA: "Six",
-        optionB: "Sevene",
-        optionC: "Four",
-        optionD: "Five",
-        correctOption: "optionA"
-    },
-
-    {
-        question: "How many planets are currently in the solar system ?",
-        optionA: "Eleven",
-        optionB: "Seven",
-        optionC: "Nine",
-        optionD: "Eight",
-        correctOption: "optionD"
-    },
-
-    {
-        question: "Which Planet is the hottest ?",
-        optionA: "Jupitar",
-        optionB: "Mercury",
-        optionC: "Earth",
-        optionD: "Venus",
+        question: "The best defense against ransomware is being proactive when you___",
+        optionA: "Purchase comprehensive cybersecurity insurance",
+        optionB: "Back up your data regularly",
+        optionC: "Regularly update all your devices and software with the latest security patches",
+        optionD: "Change your password regularly",
         correctOption: "optionB"
     },
 
     {
-        question: "where is the smallest bone in human body located?",
-        optionA: "Toes",
-        optionB: "Ears",
-        optionC: "Fingers",
-        optionD: "Nose",
+        question: "What will freezing your credit not affect?",
+        optionA: "Vulnerability to identity theft",
+        optionB: "Your workload",
+        optionC: "Need to monitor financial statements for fraud",
+        optionD: "Your credit score",
+        correctOption: "optionD"
+    },
+
+    {
+        question: "Which of the following describes Phishing?",
+        optionA: "Attacks pretending to be legitimate with the aim of tricking people into revealing passwords or bank details.",
+        optionB: "Tracking your computer movements and 'Phising out' your actions",
+        optionC: "A way of stealing your identity",
+        optionD: "All above",
+        correctOption: "optionA"
+    },
+
+    {
+        question: "What is the best way to stop falling for phishing scams?",
+        optionA: "Email filters that block suspicious attachments",
+        optionB: "Pop-up blockers",
+        optionC: "Cybersecurity awareness training",
+        optionD: "Antivirus software",
+        correctOption: "optionC"
+    },
+
+    {
+        question: "Which one of these things is most effective for maintaining your digital privacy?",
+        optionA: "Unsubscribing from all spam emails",
+        optionB: "Covering your computer’s front-facing camera",
+        optionC: "Not sharing personal information on social media",
+        optionD: "Installing Antivirus",
+        correctOption: "optionC"
+    },
+
+
+    {
+        question: "Which one of the following describes spam?",
+        optionA: "Sending unwanted bulk messages",
+        optionB: "Putting unnecessary load on the network by making copiesof files",
+        optionC: "Performing an unauthorised, usually malicious, action suchas erasing files",
+        optionD: "Gathering information about a person or organisation withouttheir knowledge",
+        correctOption: "optionA"
+    },
+
+    {
+        question: "Which one of the following is the unsafe online activity?",
+        optionA: "Using a screen name or nick name that cannot identify you",
+        optionB: "Meeting someone you met online face-to-face",
+        optionC: "Giving your home address to someone you met in a chatroom",
+        optionD: "Keeping your social network profile private",
+        correctOption: "optionC"
+    },
+
+    {
+        question: "Which one of the following should you do to ensure that your USB the storage device is kept safe and secure?",
+        optionA: "Use firewall software",
+        optionB: "Do not access it using a Bluetooth device",
+        optionC: "Only use it in private surroundings",
+        optionD: "Never leave it unattended.",
+        correctOption: "optionD"
+    },
+
+    {
+        question: "Why it is important to update antivirus software regularly?",
+        optionA: "To prevent the spread of malicious programs on the Internet.",
+        optionB: "To protect your computer from unwanted bulk messages.",
+        optionC: "To protect your computer from all known viruses",
+        optionD: "To ensure the software identifies old viruses.",
+        correctOption: "optionC"
+    },
+
+    {
+        question: "Which one of the following statements about a password is TRUE?",
+        optionA: "It should be changed regularly",
+        optionB: "It cannot contain special character symbols",
+        optionC: "It must be changed only if it is compromised",
+        optionD: "Write it down somwhere incase you forget it",
+        correctOption: "optionA"
+    },
+
+    {
+        question: "Which one of the following describes how confidential information should be sent using an unsecured network?",
+        optionA: "In an unsigned email",
+        optionB: "In a compressed format",
+        optionC: "In an encrypted format",
+        optionD: "In an attachment",
+        correctOption: "optionC"
+    },
+
+    {
+        question: "Which one of the following describes why firewalls are used? ",
+        optionA: "To detect and disable viruses already on a computer",
+        optionB: "To enable easy downloading of data from web sites",
+        optionC: "To prevent destruction of a computer in the event of a fire",
+        optionD: "To prevent unauthorised access by incoming transmissions",
+        correctOption: "optionD"
+    },
+
+    {
+        question: "What is recommended  to prevent the risk of unathorised access to home Wi-Fi?",
+        optionA: "Change the default login credentials for the home router",
+        optionB: "Disconnect the computer from the network",
+        optionC: "Adjust the Internet security settings",
+        optionD: "Complain to the Internet Service Provider",
+        correctOption: "optionA"
+    },
+
+    {
+        question: "Which one of the following could lead to the spread of a malicious program?",
+        optionA: "Using only software that has been checked for viruses",
+        optionB: "Opening only virus-checked file attachments from knownsources",
+        optionC: "Maintaining regularly updated anti-virus software",
+        optionD: "Using a USB Flash Drive from an unknown source to exchange data",
+        correctOption: "optionD"
+    },
+
+    {
+        question: "Which one of the following describes a computer hacker?",
+        optionA: "A skilled programmer who writes programs to train newemployees",
+        optionB: "A skilled programmer who secretly invades computerswithout authorisation",
+        optionC: "A skilled programmer who uses authorised access to exploitinformation available on a computer",
+        optionD: "A skilled programmer who helps in the installation of newsoftware for an organisation",
         correctOption: "optionB"
     },
 
     {
-        question: "How many hearts does an Octopus have ?",
-        optionA: "One",
-        optionB: "Two",
-        optionC: "Three",
-        optionD: "Four",
-        correctOption: "optionC"
+        question: "Which one of the following is MOST likely to be a hoax?",
+        optionA: "An email from a friend you have not seen recently",
+        optionB: "An email asking you to go to a website for a free computerscan",
+        optionC: "An email advertisement from a local shop you subscribe to",
+        optionD: "An email with an attachment sent by a colleague using their personal email address",
+        correctOption: "optionB"
     },
 
-    {
-        question: "How many teeth does an adult human have ?",
-        optionA: "28",
-        optionB: "30",
-        optionC: "32",
-        optionD: "36",
-        correctOption: "optionC"
-    }
 
 ]
 
